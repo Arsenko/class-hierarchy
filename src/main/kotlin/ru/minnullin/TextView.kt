@@ -6,6 +6,8 @@ open class TextView(text:String) : View(){
     set(value){
         if(value!=""){
             field=value
+        }else{
+            field="'empty'"
         }
     }
 }

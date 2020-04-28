@@ -13,6 +13,8 @@ fun main(){
     println(viewWithText.text)
     viewWithText.text="Another Text"
     println(viewWithText.text)
+    viewWithText.text=""
+    println(viewWithText.text)
     //Button
     val testButton=Button("text")
     println(testButton.clicked())
