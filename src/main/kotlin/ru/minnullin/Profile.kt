@@ -22,6 +22,6 @@ class Profile constructor(
                 field = value
             }
         }
-    val fullName: String = "$lastname $firstname"
-        get
+    val fullName: String
+        get()="$lastname $firstname"
 }
